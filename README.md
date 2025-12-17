@@ -1,11 +1,15 @@
-# SIEM-Log-Monitoring-with-Wazuh
-# 🛡️ Wazuh SOC Home Lab  
-### Building a Complete Security Operations Center (SOC) Environment Using Wazuh SIEM, Windows, Linux & Kali
+# 🔐 Wazuh SIEM and Firewall Log Monitoring (SOC Home Lab)
 
-This project demonstrates a full SOC (Security Operations Center) Home Lab designed to simulate real-world enterprise monitoring and detection using **Wazuh SIEM**.  
-The setup includes a Wazuh Server, multiple monitored endpoints (Windows 10, Windows Server 2019, Ubuntu Server), and a Kali Linux attacker machine for adversary simulation.
+## 📌 Overview
+
+This project showcases a **Security Operations Center (SOC) home lab** built with **Wazuh SIEM** and integrated with a **network firewall (pfSense/OPNsense)** to monitor, detect, and analyze security events across both **endpoint and network layers**.
+
+The lab centralizes security logs from endpoints, authentication services, and firewall devices, enabling effective **security monitoring, alert triage, and incident investigation**. Firewall logs are forwarded to Wazuh using syslog, allowing visibility into suspicious activities such as **unauthorized access attempts, port scanning, brute-force attacks, and network policy violations**.
+
+Designed to mirror real-world enterprise SOC environments, this project demonstrates practical hands-on experience with **SIEM operations, firewall log analysis, event correlation, and defense-in-depth security monitoring**.
 
 ---
+
 
 ## 📌 Table of Contents
 - [Overview](#overview)

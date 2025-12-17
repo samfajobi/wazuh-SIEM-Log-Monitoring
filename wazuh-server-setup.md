@@ -20,7 +20,7 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 ```
-### Incase you get an error `Command 'curl' not found`
-### Just install with `sudo apt install curl` and proceed
+#### Incase you get an error `Command 'curl' not found`
+#### Just install with `sudo apt install curl` and proceed
 
 
