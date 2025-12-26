@@ -179,9 +179,6 @@ Observe alerts related to:
 ---
 ![Wazuh-FIM-1](screenshots/wazuh-FIM-5.png)
 
-![Wazuh-FIM-1](screenshots/wazuh-FIM-5a.png)
-
-![Wazuh-FIM-1](screenshots/wazuh-FIM-5b.png)
 
 ## Step 5: SOC-Style Alert Analysis
 
@@ -192,6 +189,11 @@ For each alert, analyze:
 * Timestamp
 * User account responsible
 * Whether the activity is authorized
+* File Hashes
+
+![Wazuh-FIM-1](screenshots/wazuh-FIM-5a.png)
+
+![Wazuh-FIM-1](screenshots/wazuh-FIM-5b.png)
 
 ---
 
