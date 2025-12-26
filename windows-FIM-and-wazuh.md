@@ -32,7 +32,7 @@ This project demonstrates how to **configure and monitor File Integrity Monitori
 ---
 
 ## Tools & Technologies
-- Wazuh SIEM/XDR
+- Wazuh SIEM
 - Windows Server
 - Windows Security Event Logs
 - PowerShell
@@ -183,3 +183,44 @@ For each alert, analyze:
 | Defense evasion                | T1070     |
 
 ---
+
+## Sample SOC Incident Summary
+
+**Alert:** Unauthorized file modification
+**Source:** Wazuh FIM
+**Severity:** Medium
+**Evidence:** Wazuh alert + Windows Event ID 4663
+**Assessment:** Suspicious activity
+**Action:** Investigate and validate change
+
+---
+
+## Key Learning Outcomes
+
+* Implemented File Integrity Monitoring on Windows Server
+* Detected and analyzed file system changes
+* Correlated Wazuh alerts with Windows Security logs
+* Applied MITRE ATT&CK mapping
+* Practiced SOC alert triage and documentation
+
+---
+
+## Real-World SOC Relevance
+
+This project reflects real-world SOC responsibilities such as:
+
+* Monitoring system integrity
+* Investigating unauthorized changes
+* Detecting persistence techniques
+* Supporting compliance and audit requirements
+
+---
+
+## Author
+
+**Olusegun Fajobi**
+Cybersecurity | SOC Analyst | SIEM
+GitHub: [https://github.com/samfajobi](https://github.com/samfajobi)
+
+---
+
